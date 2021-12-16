@@ -1,0 +1,218 @@
+html, body { 
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    margin: 0;
+}
+
+
+/*###################### HEADER ###########################*/
+
+header {
+    text-align: center;
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    height: 130px;
+}
+
+header .logo-main img {
+    margin: 15px 0 0 0;
+}
+
+.logo-main {
+    width: 100%;
+    height: 130px;
+}
+
+/*###################### SECTION 1 ###########################*/
+
+#section-1 {
+
+    background-image: url("../img/background-section-1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 810px;
+    margin-top: -30px;
+}
+
+.gradient-background-section-1 {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000082 35%, #231F1F 95%);
+    width: 100%;
+    height: 810px;
+    margin-top: -30px;
+}
+
+
+
+.shop-here {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    top: 600px;
+}
+
+.shop-here button {
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    width: 138.5px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "stoke";
+    font-size: 13px;
+    padding: 9px 23px;
+    text-align: center;
+}
+
+.shop-here a{
+    text-decoration: none;
+    color: white;
+}
+
+.new-merch {
+    
+    text-align: center;
+    color: white;
+    font-family: "stoke";
+    font-size: 35px;
+}
+
+.shop-here button a:hover {
+    color: #CD332F;
+}
+
+
+/*##################### SECTION 3 ##########################*/
+
+.box-merch {
+    padding-top: 220px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-bottom: 220px;    
+}
+
+.pants-merch {
+    background-image: url("../img/Pants.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 825px;
+    margin-right: 25px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.shirt-merch {
+    background-image: url("../img/Tshirt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 825px;
+    margin-left: 25px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.shirt-merch:hover {
+    transform: scale(1.1);
+}
+
+.pants-merch:hover {
+    transform: scale(1.1);
+}
+
+/*##################### SECTION 3  ############################*/
+ 
+#section-3 {
+    background-color: #0B0A0B;
+    background-size: cover;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.box-info {
+    padding: 10px;
+}
+
+#section-3 img {
+    width: 100%;
+    background-size: 10px;
+}
+
+
+/*##################### SECTION 4  ############################*/
+
+#section-4 {
+    background-color: #242424;
+    width: 100%;
+    height: 282px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.box-engagement {
+    padding-top: 70px;
+}
+
+.box-engagement h1 {
+    color: white;
+    font-family: "montserrat";
+    font-size: 32px;
+}
+
+#section-4 button {
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    width: 173px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "stoke";
+    font-size: 13px;
+    text-align: center;
+}
+
+#section-4 a {
+    text-decoration: none;
+    color: white;
+}
+
+#section-4 button:hover {
+    background-color: #DDDDDD;
+}
+
+
+
+
+/*##################### FOOTER  ############################*/
+
+footer {
+    background-color: #242424;
+    text-align: center;
+    color: rgb(219, 217, 217);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.owner {
+    font-family: "stoke";
+    font-size: 12px;
+    padding: 0 0 10px 0;
+}

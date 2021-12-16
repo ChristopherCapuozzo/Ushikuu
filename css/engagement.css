@@ -1,0 +1,111 @@
+html, body { 
+    margin: 0;
+    background-color: #242424;
+}
+
+
+/*#################### SECTION 1 ########################*/
+
+
+.logo-main {
+    position: absolute;
+    margin-left: 45%;
+    margin-right: 0;
+    margin-top: 1%;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.engagement-1 {
+    background-image: url(../img/Engagement-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    z-index: 0;
+    
+}
+
+/*#################### SECTION 2 ########################*/
+
+.separation {
+    background-color:#242424;
+    width: 100%;
+    height: 50px;
+}
+
+/*#################### SECTION 3 ########################*/
+
+
+.engagement-2 {
+    background-color: #242424;
+    background-image: url(../img/Engagement-2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin-top: 55%;
+    z-index: 2;
+}
+
+/*#################### SECTION 4 ########################*/
+
+#section-4 {
+    background-color: #242424;
+    width: 100%;
+    height: 282px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.box-engagement {
+    padding-top: 70px;
+}
+
+.box-engagement h1 {
+    color: white;
+    font-family: "montserrat";
+    font-size: 32px;
+}
+
+#section-4 button {
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    width: 173px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "stoke";
+    font-size: 13px;
+    text-align: center;
+}
+
+#section-4 a {
+    text-decoration: none;
+    color: white;
+}
+
+#section-4 button:hover {
+    background-color: #DDDDDD;
+}
+
+/*##################### FOOTER  ############################*/
+
+footer {
+    background-color: #242424;
+    text-align: center;
+    color: rgb(219, 217, 217);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.owner {
+    font-family: "stoke";
+    font-size: 12px;
+}
